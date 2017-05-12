@@ -1,0 +1,20 @@
+{
+  "name": "abort-incomplete-multipart",
+  "version": "0.1.1",
+  "description": "Abort incomplete S3 multipart uploads",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenickdude/abort-incomplete-multipart.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "abort-incomplete-multipart": "index.js"
+  },
+  "author": "Nicholas Sherlock <n.sherlock@gmail.com>",
+  "license": "0BSD",
+  "dependencies": {
+    "aws-sdk": "^2.49.0",
+    "command-line-args": "^4.0.4",
+    "command-line-usage": "^4.0.0"
+  }
+}
